@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { getRoles } from "../service/api";
 
 
-export default  function RoleSelector({onSelect}:any){
+export default  function RoleSelector(){
     
     const [roles , setRoles] = useState<string[]>([]);
 
